@@ -1,5 +1,5 @@
 import page from "../pages/Booking.cy";
-import networkSimulations from "../pages/networkSimulations.cy";
+import networkSimulations from "../pages/NetworkSimulations.cy";
 
 
 describe('template spec', () => {
