@@ -9,8 +9,10 @@ export default defineConfig({
     baseUrl: 'https://www.ticketlouvre.fr/louvre/b2c/index.cfm/calendar/eventCode/MusWeb',
     fixturesFolder: "cypress/fixtures",
   },
- env:{
-  networkBandwidth:20
- },
-
+  env: {
+    // setting Network Bandwidth as 20KB
+    networkBandwidth: 20
+  },
+  // Setting video recording on.
+  video: true,
 });
